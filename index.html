@@ -3,37 +3,159 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>الشروط والأحكام وسياسة الخصوصية</title>
+  <title>تطبيق White</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
     body {
-      font-family: "Cairo", sans-serif;
+      font-family: 'Cairo', sans-serif;
+      margin: 0;
       background-color: #f9f9f9;
       color: #222;
-      margin: 40px;
       line-height: 1.8;
     }
-    h1, h2 {
-      color: #141D95;
+
+    header {
+      background: linear-gradient(135deg, #141D95, #3f51b5);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      border-bottom: 5px solid #0d146b;
     }
-    h1 {
-      border-bottom: 2px solid #141D95;
-      padding-bottom: 10px;
+
+    header h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #141D95;
+      border-right: 4px solid #141D95;
+      padding-right: 10px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background-color: #141D95;
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+    }
+
+    .social-icons {
+      margin-top: 15px;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    .social-icons img {
+      width: 30px;
+      height: 30px;
+      transition: transform 0.2s ease;
+      filter: brightness(0) invert(1);
+    }
+
+    .social-icons img:hover {
+      transform: scale(1.1);
+      filter: brightness(0.8) invert(0.9);
+    }
+
+    .divider {
+      height: 2px;
+      background-color: #e0e0e0;
+      margin: 40px 0;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 26px;
+      }
+      header p {
+        font-size: 16px;
+      }
     }
   </style>
 </head>
+
 <body>
-  <h1>الشروط والأحكام</h1>
-  <p>
-    باستخدام هذا التطبيق، فإنك توافق على الشروط التالية:
-    <br>- لا يجوز استخدام التطبيق لأغراض غير قانونية.
-    <br>- يحتفظ المطور بالحق في تعديل أو تحديث هذه الشروط في أي وقت.
-  </p>
 
-  <h2>سياسة الخصوصية</h2>
-  <p>
-    نحن نحترم خصوصيتك ونلتزم بحماية بياناتك. لا نقوم بجمع معلومات شخصية إلا بالقدر اللازم لعمل التطبيق وتحسينه.
-  </p>
+  <!-- المقدمة -->
+  <header>
+    <h1>تطبيق White</h1>
+    <p>تجربة ذكية وسهلة لتنظيم مهامك اليومية بطريقة عصرية وآمنة.</p>
+  </header>
 
-  <p style="margin-top:40px;">© 2025 جميع الحقوق محفوظة لتطبيق White</p>
+  <section id="about">
+    <h2>نبذة عن التطبيق</h2>
+    <p>
+      تطبيق <strong>White</strong> صُمم ليمنح المستخدمين تجربة بسيطة وفعالة لإدارة الوقت والمهام.  
+      نحن نركز على البساطة، السرعة، وحماية بيانات المستخدم.  
+      هدفنا هو مساعدتك على إنجاز المزيد بذكاء.
+    </p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- الشروط والأحكام -->
+  <section id="terms">
+    <h2>الشروط والأحكام</h2>
+    <p>
+      باستخدامك لتطبيق White، فإنك توافق على الشروط التالية:
+      <br>- يُمنع استخدام التطبيق لأي نشاط غير قانوني أو يضر بالآخرين.
+      <br>- يحق للمطور تعديل أو تحديث هذه الشروط في أي وقت دون إشعار مسبق.
+      <br>- استمرارك في استخدام التطبيق يعني موافقتك على أي تحديثات لاحقة.
+    </p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- سياسة الخصوصية -->
+  <section id="privacy">
+    <h2>سياسة الخصوصية</h2>
+    <p>
+      نحن نحترم خصوصيتك وملتزمون بحماية بياناتك.  
+      لا نقوم بجمع معلومات شخصية إلا بالقدر اللازم لعمل التطبيق وتحسين أدائه.  
+      لن نشارك بياناتك مع أي جهة خارجية دون موافقتك المسبقة.
+    </p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- التواصل الاجتماعي -->
+  <section id="contact">
+    <h2>تواصل معنا</h2>
+    <p>يسعدنا تواصلك معنا عبر قنواتنا الرسمية على وسائل التواصل الاجتماعي:</p>
+
+    <div class="social-icons">
+      <a href="https://www.instagram.com/your_instagram" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+      </a>
+      <a href="https://www.facebook.com/your_facebook" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+      </a>
+      <a href="https://www.linkedin.com/in/your_linkedin" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 جميع الحقوق محفوظة لتطبيق White</p>
+  </footer>
+
 </body>
 </html>
